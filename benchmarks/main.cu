@@ -184,7 +184,6 @@ void arithmeticInstructionsBenchmark_clock_cycles(int arithmeticIntensity) {
 	long long int *d_y;
 	cudaMalloc(&d_y, N*sizeof(long long int));
 
-	//TODO: co z cold cache misses? - chyba nie robi roznicy czy jeden kernel czy dwa odpale
 	saxpy3_clock_cycles<1><<<(N+255)/256, 256>>>(N, arithmeticIntensity, 0, d_y);
 	cudaMemcpy(y.data(), d_y, N*sizeof(long long int), cudaMemcpyDeviceToHost);
 	printClockCycleStats(y);
