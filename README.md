@@ -33,15 +33,15 @@ Below a sample of the results is presented. Figure 1 shows the behavior of the m
 \
 _Fig 1. Measured and predicted kernel execution time in function of occupancy for both devices_
 
-![Results for varying occupancy](results/Results_KernelExecutionVaryingDataSize.png)
+![Results for varying data size - kernel execution time](results/Results_KernelExecutionVaryingDataSize.png)
 \
 _Fig 2. Measured and predicted kernel execution time for large data sizes on both devices_
 
-![Results for varying occupancy](results/Results_DataTransferVaryingDataSize.png)
+![Results for varying data size - data transfer time](results/Results_DataTransferVaryingDataSize.png)
 \
 _Fig 3. Measured and predicted data transfer times for large data sizes for both testbeds_
 
-![Results for varying occupancy](results/Results_ApplicationExecutionVaryingDataSize.png)
+![Results for varying data size - application execution time](results/Results_ApplicationExecutionVaryingDataSize.png)
 \
 _Fig 4. Measured and predicted application execution times for large data sizes for both testbeds_
 
