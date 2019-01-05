@@ -49,3 +49,6 @@ _Fig 4. Measured and predicted application execution times for large data sizes 
 I'd like to thank Mr. Vasily Volkov, whose PhD dissertation was of tremendous help when working on this thesis. It should be further noted that the performance model used in this work is an adaptation and extension of the model proposed in Mr. Volkov's dissertation, that is [available here](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-143.html).
 
 Additionally, I'd like to thank my thesis supervisor, Paweł Czarnul, PhD DSc for his valuable insights, guidance and meticulous review of this work.
+
+## Publication
+Revised version of this work was published in SCPE journal: https://scpe.org/index.php/scpe/article/view/1439/
